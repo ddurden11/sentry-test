@@ -1,5 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+function test() {
+  let colors;
+
+  return colors.break;
+}
 
 function App() {
   return (
@@ -18,6 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <button onClick={test}>Break the world</button>;
     </div>
   );
 }
